@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/home_img"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="492dp"
+        android:baseline="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_header_profile1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/colorNavigationText"
+        android:layout_below="@+id/home_img" />
+    <ImageView
+        android:id="@+id/home_img_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ilham" />
+    <TextView
+        android:id="@+id/home_tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NamaSendiri"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/AquaDanon"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/home_img_profile" />
+
+    <TextView
+        android:id="@+id/home_tv_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_tv_nama"
+        android:layout_marginTop="22dp"
+        android:gravity="left"
+        android:text="@string/Deskripsi" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_tv_nama"
+        android:layout_marginTop="49dp"
+        android:gravity="left"
+        android:text="Jenis Kelamis :Laki-laki" />
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/home_tv_deskripsi"
+        android:layout_marginTop="-38dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_tv_nama"
+        android:layout_marginTop="78dp"
+        android:gravity="left"
+        android:text="TTL   :Bandung 22-APRIL-1999" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_tv_nama"
+        android:layout_marginTop="107dp"
+        android:gravity="left"
+        android:text="Alamat    :Jl Abdul Halim,Cigugur Tengah Kota CIMAHI" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_tv_nama"
+        android:layout_marginTop="134dp"
+        android:gravity="left"
+        android:text="Cita-cita :Business man" />
+
+
+</RelativeLayout>
